@@ -17,10 +17,7 @@ print(iris.data.shape)
 
 # Step 2: Model
 selected_model = 'RandomForest'
-
-
-
-
+model = RandomForestClassifier()
 # Step 3: Train
 model.fit(iris.data, iris.target)
 
